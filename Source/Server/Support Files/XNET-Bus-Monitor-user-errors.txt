@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="My XNET Bus Monitor Errors" displayname="My XNET Bus Monitor Errors">
+</nifamily>
+</nicomment>
+<nierror code="5000">
+Not Running. Initialize the bus first.
+</nierror>
+<nierror code="5001">
+A configuration is already running.
+</nierror>
+</nidocument>
