@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="XNET.CAN.BusMonitor.API.lvclass" Type="LVClass" URL="../XNET.CAN.BusMonitor.API.lvclass"/>
+	<Item Name="XNET Bus Monitor Port Service.vi" Type="VI" URL="../../XNET Bus Monitor Port Service.vi"/>
 </Library>

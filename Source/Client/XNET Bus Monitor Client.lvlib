@@ -52,6 +52,6 @@
 		<Item Name="SubProcessEngine.QueueRefs.ctl" Type="VI" URL="../Types/SubProcessEngine.QueueRefs.ctl"/>
 		<Item Name="SubProcessEngine.State.ctl" Type="VI" URL="../Types/SubProcessEngine.State.ctl"/>
 	</Item>
-	<Item Name="XNET Bus Monitor Redux.rtm" Type="Document" URL="../XNET Bus Monitor Redux.rtm"/>
-	<Item Name="XNET Bus Monitor Redux.vi" Type="VI" URL="../XNET Bus Monitor Redux.vi"/>
+	<Item Name="XNET Bus Monitor Example.rtm" Type="Document" URL="../XNET Bus Monitor Example.rtm"/>
+	<Item Name="XNET Bus Monitor Example.vi" Type="VI" URL="../XNET Bus Monitor Example.vi"/>
 </Library>
