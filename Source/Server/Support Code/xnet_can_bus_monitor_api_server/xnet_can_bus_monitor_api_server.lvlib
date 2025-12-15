@@ -14,6 +14,22 @@
 		<Item Name="Register Descriptors.vi" Type="VI" URL="../RPC Messages/Register Descriptors.vi"/>
 	</Item>
 	<Item Name="RPC Messages" Type="Folder">
+		<Item Name="google_protobuf_Timestamp" Type="Folder">
+			<Item Name="FlatToRichgoogle_protobuf_Timestamp.vi" Type="VI" URL="../RPC Messages/FlatToRichgoogle_protobuf_Timestamp.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Get google_protobuf_Timestamp.vi" Type="VI" URL="../RPC Messages/Get google_protobuf_Timestamp.vi"/>
+			<Item Name="google_protobuf_Timestamp.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Timestamp.ctl"/>
+			<Item Name="RichToFlatgoogle_protobuf_Timestamp.vi" Type="VI" URL="../RPC Messages/RichToFlatgoogle_protobuf_Timestamp.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Set google_protobuf_Timestamp.vi" Type="VI" URL="../RPC Messages/Set google_protobuf_Timestamp.vi"/>
+		</Item>
+		<Item Name="google_protobuf_Timestamp_Flat" Type="Folder">
+			<Item Name="google_protobuf_Timestamp_Flat.ctl" Type="VI" URL="../RPC Messages/google_protobuf_Timestamp_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
 		<Item Name="ni_xnet_can_bm_api_CanCommState" Type="Folder">
 			<Item Name="FlatToRichni_xnet_can_bm_api_CanCommState.vi" Type="VI" URL="../RPC Messages/FlatToRichni_xnet_can_bm_api_CanCommState.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -294,6 +310,22 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
+		<Item Name="ni_xnet_can_bm_api_Session" Type="Folder">
+			<Item Name="FlatToRichni_xnet_can_bm_api_Session.vi" Type="VI" URL="../RPC Messages/FlatToRichni_xnet_can_bm_api_Session.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Get ni_xnet_can_bm_api_Session.vi" Type="VI" URL="../RPC Messages/Get ni_xnet_can_bm_api_Session.vi"/>
+			<Item Name="ni_xnet_can_bm_api_Session.ctl" Type="VI" URL="../RPC Messages/ni_xnet_can_bm_api_Session.ctl"/>
+			<Item Name="RichToFlatni_xnet_can_bm_api_Session.vi" Type="VI" URL="../RPC Messages/RichToFlatni_xnet_can_bm_api_Session.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="Set ni_xnet_can_bm_api_Session.vi" Type="VI" URL="../RPC Messages/Set ni_xnet_can_bm_api_Session.vi"/>
+		</Item>
+		<Item Name="ni_xnet_can_bm_api_Session_Flat" Type="Folder">
+			<Item Name="ni_xnet_can_bm_api_Session_Flat.ctl" Type="VI" URL="../RPC Messages/ni_xnet_can_bm_api_Session_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
 		<Item Name="ni_xnet_can_bm_api_SetStreamingFilterReply" Type="Folder">
 			<Item Name="FlatToRichni_xnet_can_bm_api_SetStreamingFilterReply.vi" Type="VI" URL="../RPC Messages/FlatToRichni_xnet_can_bm_api_SetStreamingFilterReply.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -420,4 +452,5 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="NI_XNET_CAN_Bus_Monitor_API.lvclass" Type="LVClass" URL="../RPC Service/NI_XNET_CAN_Bus_Monitor_API/NI_XNET_CAN_Bus_Monitor_API.lvclass"/>
+	<Item Name="Run Server.vi" Type="VI" URL="../Run Server.vi"/>
 </Library>

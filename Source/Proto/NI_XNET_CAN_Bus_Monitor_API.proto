@@ -166,9 +166,15 @@ service NI_XNET_CAN_Bus_Monitor_API {
 	bool sleep = 8;
   }
 
+  message Session{
+	string name = 1;
+	string session_uid = 2;
+  }
+
 // PassThru
   message PassThruRequest{
-    Frame frame = 1; 
+    Session session = 1;
+	Frame frame = 2; 
   }
 
   message PassThruReply{
@@ -176,7 +182,9 @@ service NI_XNET_CAN_Bus_Monitor_API {
   }
 
  // Get Streaming Filter
-  message GetStreamingFilterRequest{}
+  message GetStreamingFilterRequest{
+	Session session = 1;
+  }
 
   message GetStreamingFilterReply{
     FilterInfo filter_info = 1;
@@ -185,7 +193,8 @@ service NI_XNET_CAN_Bus_Monitor_API {
 
  // Set Streaming Filter
   message SetStreamingFilterRequest{
-    FilterInfo filter_info = 1;
+	Session session = 1;  
+	FilterInfo filter_info = 2;
   }
 
   message SetStreamingFilterReply{
@@ -193,7 +202,9 @@ service NI_XNET_CAN_Bus_Monitor_API {
   }
 
  // Reset Streaming Filter
-  message ResetStreamingFilterRequest{}
+  message ResetStreamingFilterRequest{
+	Session session = 1;
+  }
 
   message ResetStreamingFilterReply{
     FilterInfo filter_info = 1;
@@ -208,11 +219,14 @@ service NI_XNET_CAN_Bus_Monitor_API {
   }
   
   message InitializeSettingsReply{
-	ErrorInfo error = 1;
+	Session session = 1;
+	ErrorInfo error = 2;
   }
 
 // Stop Process
-  message StopProcessRequest{}
+  message StopProcessRequest{
+	Session session = 1;
+  }
   
   message StopProcessReply{
 	bool stopped = 1;
@@ -220,7 +234,9 @@ service NI_XNET_CAN_Bus_Monitor_API {
   }
 
 // Bus Stream
-  message StreamBusRequest{}
+  message StreamBusRequest{
+	Session session = 1;
+  }
 
   message StreamBusReply{
 	CanCommState can_comm_state = 1;

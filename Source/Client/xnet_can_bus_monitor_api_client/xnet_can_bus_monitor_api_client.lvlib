@@ -63,6 +63,15 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
+		<Item Name="ni_xnet_can_bm_api_Session" Type="Folder">
+			<Item Name="ni_xnet_can_bm_api_Session.ctl" Type="VI" URL="../RPC Messages/ni_xnet_can_bm_api_Session.ctl"/>
+			<Item Name="FlatToRichni_xnet_can_bm_api_Session.vi" Type="VI" URL="../RPC Messages/FlatToRichni_xnet_can_bm_api_Session.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+			<Item Name="RichToFlatni_xnet_can_bm_api_Session.vi" Type="VI" URL="../RPC Messages/RichToFlatni_xnet_can_bm_api_Session.vi">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
 		<Item Name="ni_xnet_can_bm_api_PassThruRequest" Type="Folder">
 			<Item Name="ni_xnet_can_bm_api_PassThruRequest.ctl" Type="VI" URL="../RPC Messages/ni_xnet_can_bm_api_PassThruRequest.ctl"/>
 			<Item Name="FlatToRichni_xnet_can_bm_api_PassThruRequest.vi" Type="VI" URL="../RPC Messages/FlatToRichni_xnet_can_bm_api_PassThruRequest.vi">
@@ -251,6 +260,11 @@
 		</Item>
 		<Item Name="ni_xnet_can_bm_api_CanCommState_Flat" Type="Folder">
 			<Item Name="ni_xnet_can_bm_api_CanCommState_Flat.ctl" Type="VI" URL="../RPC Messages/ni_xnet_can_bm_api_CanCommState_Flat.ctl">
+				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			</Item>
+		</Item>
+		<Item Name="ni_xnet_can_bm_api_Session_Flat" Type="Folder">
+			<Item Name="ni_xnet_can_bm_api_Session_Flat.ctl" Type="VI" URL="../RPC Messages/ni_xnet_can_bm_api_Session_Flat.ctl">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>

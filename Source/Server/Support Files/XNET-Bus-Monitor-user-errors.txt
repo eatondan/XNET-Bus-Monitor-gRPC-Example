@@ -11,4 +11,7 @@ Not Running. Initialize the bus first.
 <nierror code="5001">
 A configuration is already running.
 </nierror>
+<nierror code="5002">
+A bus stream is already running on this session.
+</nierror>
 </nidocument>
