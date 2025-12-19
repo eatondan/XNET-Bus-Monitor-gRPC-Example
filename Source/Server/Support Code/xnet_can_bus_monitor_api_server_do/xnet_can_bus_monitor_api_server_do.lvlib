@@ -19,6 +19,7 @@
 			<Item Name="Process.CloseAndStop.vi" Type="VI" URL="../SubVIs/Process.CloseAndStop.vi"/>
 			<Item Name="Process.CreateRefs.vi" Type="VI" URL="../SubVIs/Process.CreateRefs.vi"/>
 			<Item Name="Process.WriteDebugString.vi" Type="VI" URL="../SubVIs/Process.WriteDebugString.vi"/>
+			<Item Name="Session.CheckValid.vi" Type="VI" URL="../SubVIs/Session.CheckValid.vi"/>
 			<Item Name="StreamProcess.Main.vi" Type="VI" URL="../SubVIs/StreamProcess.Main.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
@@ -37,5 +38,4 @@
 		<Item Name="StopProcess.Do.vi" Type="VI" URL="../StopProcess.Do.vi"/>
 		<Item Name="StreamBus.Do.vi" Type="VI" URL="../StreamBus.Do.vi"/>
 	</Item>
-	<Item Name="Session.CheckValid.vi" Type="VI" URL="../SubVIs/Session.CheckValid.vi"/>
 </Library>
